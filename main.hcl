@@ -1,7 +1,7 @@
 resource "lab" "main" {
   title = "My First Lab"
   description = <<-EOF
-  This is my first lab.
+  This is my first lab. Pushing a change to test.
   EOF
 
   layout "single_column" {
